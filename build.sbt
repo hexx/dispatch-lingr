@@ -1,3 +1,5 @@
+seq(githubRepoSettings: _*)
+
 organization := "com.github.hexx"
 
 name := "dispatch-lingr"
@@ -6,7 +8,7 @@ version := "0.0.1"
 
 scalaVersion := "2.9.2"
 
-crossScalaVersions := Seq("2.9.1", "2.9.1-1", "2.9.2")
+crossScalaVersions := Seq("2.9.1", "2.9.2")
 
 scalacOptions ++= Seq("-deprecation", "-unchecked")
 
